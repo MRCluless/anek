@@ -1,0 +1,16 @@
+name: anek
+version: 0.0.1
+description: A high-performance, multi-core Dart web framework featuring an Express.js-style API, deterministic graceful shutdowns, and O(K) Radix Tree routing.
+homepage: https://github.com/MRCluless/hyper_dart
+repository: https://github.com/MRCluless/hyper_dart
+
+environment:
+  sdk: ^3.13.3
+
+# Add regular dependencies here.
+dependencies:
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
